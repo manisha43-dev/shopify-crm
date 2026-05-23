@@ -19,8 +19,7 @@ connectDB();
 
 //  Security middleware 
 app.use(helmet());
-app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:3002', 'http://localhost:3001',  'http://localhost:3003',
-      'http://localhost:3004'], credentials: true }));
+app.use(cors({ origin:'*', credentials: true }));
 app.use(morgan('dev'));
 
 // Rate limiter for general API
