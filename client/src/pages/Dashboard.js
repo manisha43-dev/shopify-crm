@@ -270,7 +270,7 @@ export default function Dashboard() {
         padding: '10px 16px', fontSize: 12,
         color: '#2E86C1', textAlign: 'center',
       }}>
-        💡 Synced from: hellogrowthtest.myshopify.com
+        Synced from: hellogrowthtest.myshopify.com
       </div>
 
     </div>

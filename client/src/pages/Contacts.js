@@ -67,8 +67,6 @@ const ContactCard = ({ contact, onClick }) => {
             <span style={{ fontSize: 14, fontWeight: 700, color: '#1A3C5E' }}>
               {contact.firstName} {contact.lastName}
             </span>
-            {contact.isVip && <span>⭐</span>}
-            {contact.isAtRisk && <span>⚠️</span>}
           </div>
           <div style={{ fontSize: 12, color: '#2E86C1', marginTop: 2 }}>
             {contact.email}
@@ -381,8 +379,6 @@ export default function Contacts() {
                           <div>
                             <div style={{ fontWeight: 700, color: '#1A3C5E' }}>
                               {c.firstName} {c.lastName}
-                              {c.isVip && <span style={{ marginLeft: 4 }}>⭐</span>}
-                              {c.isAtRisk && <span style={{ marginLeft: 4 }}>⚠️</span>}
                             </div>
                             {isTablet && (
                               <div style={{ fontSize: 11, color: '#7F8C8D' }}>{c.phone || ''}</div>

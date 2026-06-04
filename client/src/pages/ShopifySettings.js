@@ -303,7 +303,6 @@ const handleConnect = () => {
               padding: 50, textAlign: 'center',
               boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
             }}>
-              <div style={{ fontSize: 48, marginBottom: 12 }}>🏪</div>
               <div style={{ fontSize: 16, fontWeight: 700, color: '#1A3C5E', marginBottom: 6 }}>
                 No stores connected yet
               </div>
@@ -422,7 +421,6 @@ const handleConnect = () => {
               background: '#fff', borderRadius: 12,
               boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
             }}>
-              <div style={{ fontSize: 40, marginBottom: 10 }}>📡</div>
               <div style={{ fontSize: 14, color: '#7F8C8D' }}>No webhook events yet</div>
             </div>
           ) : isMobile ? (
