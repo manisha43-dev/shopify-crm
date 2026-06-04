@@ -212,10 +212,10 @@ export default function Orders() {
                 marginBottom: 18,
             }}>
                 {[
-                    { label: 'Total Orders', value: total, color: '#2E86C1', icon: '📦' },
-                    { label: 'Paid', value: paidCount, color: '#1E8449', icon: '✅' },
-                    { label: 'Revenue', value: `₹${totalRevenue.toLocaleString()}`, color: '#8E44AD', icon: '💰' },
-                    { label: 'Current Page', value: `Page ${page}`, color: '#E67E22', icon: '📄' },
+                    { label: 'Total Orders', value: total, color: '#2E86C1'},
+                    { label: 'Paid', value: paidCount, color: '#1E8449'},
+                    { label: 'Revenue', value: `₹${totalRevenue.toLocaleString()}`, color: '#8E44AD' },
+                    { label: 'Current Page', value: `Page ${page}`, color: '#E67E22'},
                 ].map(c => (
                     <div key={c.label} style={{
                         background: '#fff', borderRadius: 10,
@@ -227,7 +227,6 @@ export default function Orders() {
                             <div style={{ fontSize: 11, color: '#7F8C8D', fontWeight: 600, textTransform: 'uppercase' }}>
                                 {c.label}
                             </div>
-                            <span style={{ fontSize: 18 }}>{c.icon}</span>
                         </div>
                         <div style={{ fontSize: isMobile ? 20 : 22, fontWeight: 800, color: '#1A3C5E', marginTop: 6 }}>
                             {c.value}

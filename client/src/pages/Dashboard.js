@@ -140,7 +140,7 @@ export default function Dashboard() {
           boxShadow: '0 2px 10px rgba(0,0,0,0.07)',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
-            <span style={{ fontSize: 18 }}>📊</span>
+            <span style={{ fontSize: 18 }}></span>
             <h3 style={{ fontSize: 14, fontWeight: 700, color: '#1A3C5E', margin: 0 }}>
               Pipeline by Stage
             </h3>
