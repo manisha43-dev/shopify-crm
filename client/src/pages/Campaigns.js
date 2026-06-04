@@ -147,7 +147,7 @@ const CampaignDetail = ({ campaign, onClose, isMobile }) => {
             background: '#FDEBD0', color: '#D35400',
             border: '1px solid #F0B27A', fontSize: 13,
             fontWeight: 700, cursor: 'pointer',
-          }}>⏸ Pause</button>
+          }}> Pause</button>
         )}
         {campaign.status === 'paused' && (
           <button style={{
@@ -155,7 +155,7 @@ const CampaignDetail = ({ campaign, onClose, isMobile }) => {
             background: '#D5F5E3', color: '#1E8449',
             border: '1px solid #82E0AA', fontSize: 13,
             fontWeight: 700, cursor: 'pointer',
-          }}>▶ Resume</button>
+          }}>Resume</button>
         )}
         {campaign.status === 'draft' && (
           <button style={{
@@ -163,14 +163,14 @@ const CampaignDetail = ({ campaign, onClose, isMobile }) => {
             background: '#1A3C5E', color: '#fff',
             border: 'none', fontSize: 13,
             fontWeight: 700, cursor: 'pointer',
-          }}>🚀 Launch</button>
+          }}> Launch</button>
         )}
         <button style={{
           flex: 1, padding: '10px', borderRadius: 8,
           background: '#EBF5FB', color: '#2E86C1',
           border: '1px solid #AED6F1', fontSize: 13,
           fontWeight: 700, cursor: 'pointer',
-        }}>✏️ Edit</button>
+        }}> Edit</button>
       </div>
     </div>
   );
@@ -226,7 +226,7 @@ const NewCampaignModal = ({ onClose }) => (
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
         <h2 style={{ color: '#1A3C5E', fontSize: 18, fontWeight: 800, margin: 0 }}>
-          🚀 Create Campaign
+          Create Campaign
         </h2>
         <button onClick={onClose} style={{
           background: '#F4F6F7', border: 'none',
@@ -283,7 +283,7 @@ const NewCampaignModal = ({ onClose }) => (
               fontSize: 13, fontWeight: 600,
             }}>
               <input type="radio" name="type" defaultChecked={t === 'Manual'} />
-              {t === 'Manual' ? '✋ Manual' : '⚡ Automated'}
+              {t === 'Manual' ? ' Manual' : ' Automated'}
             </label>
           ))}
         </div>
@@ -294,7 +294,7 @@ const NewCampaignModal = ({ onClose }) => (
           Channel
         </label>
         <div style={{ display: 'flex', gap: 10 }}>
-          {['📧 Email', '📱 SMS', '🔔 Push'].map(ch => (
+          {[' Email', 'SMS', ' Push'].map(ch => (
             <label key={ch} style={{
               flex: 1, display: 'flex', alignItems: 'center',
               justifyContent: 'center', gap: 6,
@@ -324,7 +324,7 @@ const NewCampaignModal = ({ onClose }) => (
           border: 'none', borderRadius: 8,
           cursor: 'pointer', fontSize: 14, fontWeight: 700,
         }}>
-          💾 Save as Draft
+           Save as Draft
         </button>
       </div>
     </div>
@@ -492,8 +492,8 @@ export default function Campaigns() {
             flex: isMobile ? 1 : 'unset',
           }}>
           <option value="">All Types</option>
-          <option value="Automated">⚡ Automated</option>
-          <option value="Manual">✋ Manual</option>
+          <option value="Automated"> Automated</option>
+          <option value="Manual">Manual</option>
         </select>
 
         <select
@@ -506,10 +506,10 @@ export default function Campaigns() {
             flex: isMobile ? 1 : 'unset',
           }}>
           <option value="">All Statuses</option>
-          <option value="active">🟢 Active</option>
-          <option value="paused">🟠 Paused</option>
-          <option value="draft">⚪ Draft</option>
-          <option value="sent">🔵 Sent</option>
+          <option value="active">Active</option>
+          <option value="paused">Paused</option>
+          <option value="draft"> Draft</option>
+          <option value="sent"> Sent</option>
         </select>
 
         {(typeFilter || statusFilter) && (
@@ -536,7 +536,7 @@ export default function Campaigns() {
               background: '#fff', borderRadius: 12,
               boxShadow: '0 2px 8px rgba(0,0,0,0.07)',
             }}>
-              <div style={{ fontSize: 40, marginBottom: 10 }}>📣</div>
+              {/* <div style={{ fontSize: 40, marginBottom: 10 }}></div> */}
               <div style={{ fontSize: 14, color: '#7F8C8D' }}>No campaigns match your filters</div>
             </div>
           ) : isMobile ? (

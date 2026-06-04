@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "6a0ebcd46c77c244c91e2625"
+  },
+  "title": "Order #1001",
+  "shopDomain": "teststore.myshopify.com",
+  "value": 2500,
+  "currency": "INR",
+  "stage": "contacted",
+  "source": "shopify",
+  "notes": "High value order",
+  "tags": [
+    "shopify",
+    "paid"
+  ],
+  "createdAt": {
+    "$date": "2026-05-21T08:05:40.874Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T15:34:29.426Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ebd9a6c77c244c91e2626"
+  },
+  "title": "Lead from Website",
+  "shopDomain": "teststore.myshopify.com",
+  "value": 1000,
+  "currency": "INR",
+  "stage": "lost",
+  "source": "shopify",
+  "createdAt": {
+    "$date": "2026-05-21T08:08:58.002Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T15:34:16.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ebd9a6c77c244c91e2627"
+  },
+  "title": "Follow up Call",
+  "shopDomain": "teststore.myshopify.com",
+  "value": 3000,
+  "currency": "INR",
+  "stage": "qualified",
+  "source": "shopify",
+  "createdAt": {
+    "$date": "2026-05-21T08:08:58.002Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T15:34:45.912Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ebd9a6c77c244c91e2628"
+  },
+  "title": "Product Demo",
+  "shopDomain": "teststore.myshopify.com",
+  "value": 5000,
+  "currency": "INR",
+  "stage": "proposal",
+  "source": "shopify",
+  "createdAt": {
+    "$date": "2026-05-21T08:08:58.002Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T15:34:43.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ebd9a6c77c244c91e2629"
+  },
+  "title": "Proposal Sent",
+  "shopDomain": "teststore.myshopify.com",
+  "value": 8000,
+  "currency": "INR",
+  "stage": "won",
+  "source": "shopify",
+  "createdAt": {
+    "$date": "2026-05-21T08:08:58.002Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T15:34:32.872Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0ebd9a6c77c244c91e262a"
+  },
+  "title": "Lost Deal",
+  "shopDomain": "teststore.myshopify.com",
+  "value": 2000,
+  "currency": "INR",
+  "stage": "new",
+  "source": "shopify",
+  "createdAt": {
+    "$date": "2026-05-21T08:08:58.002Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T15:34:21.428Z"
+  }
+}]

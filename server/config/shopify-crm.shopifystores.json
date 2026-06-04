@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "6a101be77ab58c809b0fb0e7"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "accessTokenEncrypted": "26dd18d4c16e9114b3e1fa6b1d39616d:c17bdc09514883fdf19f9b636993828fe54a5857d4255ea9d15988c3009c4be22458b481be8ee7f214c29f7e52d93d70",
+  "scopes": [
+    "write_customers",
+    "read_orders",
+    "read_products",
+    "read_checkouts"
+  ],
+  "isActive": true,
+  "syncStatus": {
+    "customers": "done",
+    "orders": "done",
+    "products": "done",
+    "carts": "idle"
+  },
+  "errorCount": 0,
+  "webhookIds": [],
+  "createdAt": {
+    "$date": "2026-05-22T09:03:35.716Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.834Z"
+  },
+  "__v": 0
+}]

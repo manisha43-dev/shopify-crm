@@ -1,0 +1,833 @@
+[{
+  "_id": {
+    "$oid": "6a0fe80f8e20c5d8be21cd3e"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367090469",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:23.981Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/gift_card.png?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.300Z"
+  },
+  "productType": "giftcard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [],
+  "title": "Gift Card",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.301Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872500005",
+      "title": "$10",
+      "price": 10,
+      "sku": null,
+      "inventory": 0,
+      "_id": {
+        "$oid": "6a106e435a117aab38131304"
+      }
+    },
+    {
+      "variantId": "52415872532773",
+      "title": "$25",
+      "price": 25,
+      "sku": null,
+      "inventory": 0,
+      "_id": {
+        "$oid": "6a106e435a117aab38131305"
+      }
+    },
+    {
+      "variantId": "52415872565541",
+      "title": "$50",
+      "price": 50,
+      "sku": null,
+      "inventory": 0,
+      "_id": {
+        "$oid": "6a106e435a117aab38131306"
+      }
+    },
+    {
+      "variantId": "52415872598309",
+      "title": "$100",
+      "price": 100,
+      "sku": null,
+      "inventory": 0,
+      "_id": {
+        "$oid": "6a106e435a117aab38131307"
+      }
+    }
+  ],
+  "vendor": "Snowboard Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd3f"
+  },
+  "shopifyProductId": "10455367287077",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:23.996Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/snowboard_wax.png?v=1779422156",
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/wax-special.png?v=1779422156",
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/sample-normal-wax.png?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.312Z"
+  },
+  "productType": "accessories",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "Selling Plans Ski Wax",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.312Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872696613",
+      "title": "Selling Plans Ski Wax",
+      "price": 24.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab3813130c"
+      }
+    },
+    {
+      "variantId": "52415872729381",
+      "title": "Special Selling Plans Ski Wax",
+      "price": 49.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab3813130d"
+      }
+    },
+    {
+      "variantId": "52415872762149",
+      "title": "Sample Selling Plans Ski Wax",
+      "price": 9.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab3813130e"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd40"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367549221",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.001Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_b9e0da7f-db89-4d41-83f0-7f417b02831d.jpg?v=1779422157"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.317Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:55.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The 3p Fulfilled Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.317Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873384741",
+      "title": "Default Title",
+      "price": 2629.95,
+      "sku": "sku-hosted-1",
+      "inventory": 20,
+      "_id": {
+        "$oid": "6a106e435a117aab38131312"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd41"
+  },
+  "shopifyProductId": "10455367156005",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.006Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_52f8e304-92d9-4a36-82af-50df8fe31c69.jpg?v=1779422155"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.322Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "archived",
+  "tags": [
+    "Archived",
+    "Premium",
+    "Snow",
+    "Snowboard",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Archived Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.322Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872631077",
+      "title": "Default Title",
+      "price": 629.95,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab38131314"
+      }
+    }
+  ],
+  "vendor": "Snowboard Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd42"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367254309",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.010Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_0a40b01b-5021-48c1-80d1-aa8ab4876d3d.jpg?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.326Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Collection Snowboard: Hydrogen",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.327Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872467237",
+      "title": "Default Title",
+      "price": 600,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab38131316"
+      }
+    }
+  ],
+  "vendor": "Hydrogen Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd43"
+  },
+  "shopifyProductId": "10455367614757",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.012Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg?v=1779422158"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.330Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:56.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Collection Snowboard: Liquid",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.330Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873450277",
+      "title": "Default Title",
+      "price": 749.95,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab38131318"
+      }
+    }
+  ],
+  "vendor": "Hydrogen Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd44"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367483685",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.015Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1779422157"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.334Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:55.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Collection Snowboard: Oxygen",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.334Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873286437",
+      "title": "Default Title",
+      "price": 1025,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab3813131a"
+      }
+    }
+  ],
+  "vendor": "Hydrogen Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd45"
+  },
+  "shopifyProductId": "10455367123237",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.017Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/snowboard_sky.png?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.337Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Compare at Price Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.337Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872794917",
+      "title": "Default Title",
+      "price": 785.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab3813131c"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd46"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367221541",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.020Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.340Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Premium",
+    "Snow",
+    "Snowboard",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Complete Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.340Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872827685",
+      "title": "Ice",
+      "price": 699.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab3813131e"
+      }
+    },
+    {
+      "variantId": "52415872860453",
+      "title": "Dawn",
+      "price": 699.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab3813131f"
+      }
+    },
+    {
+      "variantId": "52415872893221",
+      "title": "Powder",
+      "price": 699.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab38131320"
+      }
+    },
+    {
+      "variantId": "52415872925989",
+      "title": "Electric",
+      "price": 699.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab38131321"
+      }
+    },
+    {
+      "variantId": "52415872958757",
+      "title": "Sunset",
+      "price": 699.95,
+      "sku": null,
+      "inventory": 10,
+      "_id": {
+        "$oid": "6a106e435a117aab38131322"
+      }
+    }
+  ],
+  "vendor": "Snowboard Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd47"
+  },
+  "shopifyProductId": "10455367188773",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.024Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_5127218a-8f6c-498f-b489-09242c0fab0a.jpg?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.345Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "draft",
+  "tags": [],
+  "title": "The Draft Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.345Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873057061",
+      "title": "Default Title",
+      "price": 2629.95,
+      "sku": null,
+      "inventory": 20,
+      "_id": {
+        "$oid": "6a106e435a117aab38131328"
+      }
+    }
+  ],
+  "vendor": "Snowboard Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd48"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367352613",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.026Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.349Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Premium",
+    "Snow",
+    "Snowboard",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Hidden Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.349Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872991525",
+      "title": "Default Title",
+      "price": 749.95,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab3813132a"
+      }
+    }
+  ],
+  "vendor": "Snowboard Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd49"
+  },
+  "shopifyProductId": "10455367024933",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.028Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/snowboard_purple_hydrogen.png?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.353Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:53.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Inventory Not Tracked Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.353Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872434469",
+      "title": "Default Title",
+      "price": 949.95,
+      "sku": "sku-untracked-1",
+      "inventory": 0,
+      "_id": {
+        "$oid": "6a106e435a117aab3813132c"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd4a"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367418149",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.030Z"
+  },
+  "images": [],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.356Z"
+  },
+  "productType": "",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [],
+  "title": "The Minimal Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.357Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873024293",
+      "title": "Default Title",
+      "price": 885.95,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab3813132e"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd4b"
+  },
+  "shopifyProductId": "10455367450917",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.032Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_0a4e9096-021a-4c1e-8750-24b233166a12.jpg?v=1779422157"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.359Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:55.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Premium",
+    "Snow",
+    "Snowboard",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Multi-location Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.359Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873253669",
+      "title": "Default Title",
+      "price": 729.95,
+      "sku": null,
+      "inventory": 100,
+      "_id": {
+        "$oid": "6a106e435a117aab38131330"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd4c"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367516453",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.034Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_9129b69a-0c7b-4f66-b6cf-c4222f18028a.jpg?v=1779422157"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.362Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:55.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Premium",
+    "Snow",
+    "Snowboard",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Multi-managed Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.362Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873319205",
+      "title": "Default Title",
+      "price": 629.95,
+      "sku": "sku-managed-1",
+      "inventory": 100,
+      "_id": {
+        "$oid": "6a106e435a117aab38131332"
+      }
+    }
+  ],
+  "vendor": "Multi-managed Vendor"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd4d"
+  },
+  "shopifyProductId": "10455367385381",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.036Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.365Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [
+    "Accessory",
+    "Sport",
+    "Winter"
+  ],
+  "title": "The Out of Stock Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.365Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415872663845",
+      "title": "Default Title",
+      "price": 885.95,
+      "sku": null,
+      "inventory": 0,
+      "_id": {
+        "$oid": "6a106e435a117aab38131334"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+},
+{
+  "_id": {
+    "$oid": "6a0fe8108e20c5d8be21cd4e"
+  },
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyProductId": "10455367319845",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T05:22:24.038Z"
+  },
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1002/2001/0789/files/Main.jpg?v=1779422156"
+  ],
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.369Z"
+  },
+  "productType": "snowboard",
+  "shopifyCreatedAt": {
+    "$date": "2026-05-22T03:55:54.000Z"
+  },
+  "status": "active",
+  "tags": [],
+  "title": "The Videographer Snowboard",
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.369Z"
+  },
+  "variants": [
+    {
+      "variantId": "52415873089829",
+      "title": "Default Title",
+      "price": 885.95,
+      "sku": null,
+      "inventory": 50,
+      "_id": {
+        "$oid": "6a106e435a117aab38131336"
+      }
+    }
+  ],
+  "vendor": "hellogrowthtest"
+}]

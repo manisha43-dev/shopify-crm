@@ -1,0 +1,237 @@
+[{
+  "_id": {
+    "$oid": "6a100d4e6c77c244c91e262d"
+  },
+  "shopifyCustomerId": "cust_001",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@gmail.com",
+  "phone": "+91 9876543210",
+  "totalSpent": 2849.85,
+  "ordersCount": 3,
+  "averageOrderValue": 949.95,
+  "lastOrderDate": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "firstOrderDate": {
+    "$date": "2026-03-10T00:00:00.000Z"
+  },
+  "status": "customer",
+  "source": "shopify",
+  "tags": [
+    "vip",
+    "repeat-buyer"
+  ],
+  "isVip": true,
+  "isAtRisk": false,
+  "emailOptIn": true,
+  "defaultAddress": {
+    "address1": "123 Main Street",
+    "city": "Coimbatore",
+    "province": "Tamil Nadu",
+    "country": "India",
+    "zip": "641001"
+  },
+  "createdAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a100d4e6c77c244c91e262e"
+  },
+  "shopifyCustomerId": "cust_002",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "firstName": "Priya",
+  "lastName": "Kumar",
+  "email": "priya.kumar@gmail.com",
+  "phone": "+91 9876543211",
+  "totalSpent": 600,
+  "ordersCount": 1,
+  "averageOrderValue": 600,
+  "lastOrderDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "firstOrderDate": {
+    "$date": "2026-05-18T00:00:00.000Z"
+  },
+  "status": "customer",
+  "source": "shopify",
+  "tags": [
+    "first-time-buyer"
+  ],
+  "isVip": false,
+  "isAtRisk": false,
+  "emailOptIn": true,
+  "defaultAddress": {
+    "address1": "45 Park Avenue",
+    "city": "Chennai",
+    "province": "Tamil Nadu",
+    "country": "India",
+    "zip": "600001"
+  },
+  "createdAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a100d4e6c77c244c91e262f"
+  },
+  "shopifyCustomerId": "cust_003",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "firstName": "Rahul",
+  "lastName": "Sharma",
+  "email": "rahul.sharma@gmail.com",
+  "phone": "+91 9876543212",
+  "totalSpent": 169.9,
+  "ordersCount": 2,
+  "averageOrderValue": 84.95,
+  "lastOrderDate": {
+    "$date": "2026-04-01T00:00:00.000Z"
+  },
+  "firstOrderDate": {
+    "$date": "2026-02-15T00:00:00.000Z"
+  },
+  "status": "customer",
+  "source": "shopify",
+  "tags": [
+    "at-risk"
+  ],
+  "isVip": false,
+  "isAtRisk": true,
+  "emailOptIn": false,
+  "defaultAddress": {
+    "address1": "78 MG Road",
+    "city": "Bangalore",
+    "province": "Karnataka",
+    "country": "India",
+    "zip": "560001"
+  },
+  "createdAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a100d4e6c77c244c91e2630"
+  },
+  "shopifyCustomerId": "cust_004",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "firstName": "Anita",
+  "lastName": "Patel",
+  "email": "anita.patel@gmail.com",
+  "phone": "+91 9876543213",
+  "totalSpent": 0,
+  "ordersCount": 0,
+  "averageOrderValue": 0,
+  "status": "lead",
+  "source": "shopify",
+  "tags": [],
+  "isVip": false,
+  "isAtRisk": false,
+  "emailOptIn": true,
+  "defaultAddress": {
+    "address1": "12 Juhu Beach Road",
+    "city": "Mumbai",
+    "province": "Maharashtra",
+    "country": "India",
+    "zip": "400049"
+  },
+  "createdAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a100d4e6c77c244c91e2631"
+  },
+  "shopifyCustomerId": "cust_005",
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "firstName": "Vikram",
+  "lastName": "Singh",
+  "email": "vikram.singh@gmail.com",
+  "phone": "+91 9876543214",
+  "totalSpent": 5699.7,
+  "ordersCount": 6,
+  "averageOrderValue": 949.95,
+  "lastOrderDate": {
+    "$date": "2026-05-21T00:00:00.000Z"
+  },
+  "firstOrderDate": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "status": "customer",
+  "source": "shopify",
+  "tags": [
+    "vip",
+    "loyal"
+  ],
+  "isVip": true,
+  "isAtRisk": false,
+  "emailOptIn": true,
+  "defaultAddress": {
+    "address1": "56 Connaught Place",
+    "city": "New Delhi",
+    "province": "Delhi",
+    "country": "India",
+    "zip": "110001"
+  },
+  "createdAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T08:01:18.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1055078e20c5d8be21cd4f"
+  },
+  "__v": 0,
+  "addresses": [
+    {
+      "province": null,
+      "country": "Canada"
+    }
+  ],
+  "averageOrderValue": 0,
+  "createdAt": {
+    "$date": "2026-05-22T13:07:19.374Z"
+  },
+  "emailOptIn": false,
+  "firstName": "Russell",
+  "isAtRisk": false,
+  "isVip": false,
+  "lastName": "Winfield",
+  "lastSyncedAt": {
+    "$date": "2026-05-22T14:54:59.768Z"
+  },
+  "ordersCount": 0,
+  "shopDomain": "hellogrowthtest.myshopify.com",
+  "shopifyCustomerId": "10067475300645",
+  "shopifyTags": [
+    "VIP"
+  ],
+  "smsOptIn": false,
+  "source": "shopify",
+  "status": "lead",
+  "tags": [],
+  "totalSpent": 0,
+  "updatedAt": {
+    "$date": "2026-05-22T14:54:59.768Z"
+  }
+}]

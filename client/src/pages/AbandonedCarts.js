@@ -41,7 +41,7 @@ const CartDetail = ({ cart, onClose, isMobile }) => {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
                 <div>
                     <h3 style={{ color: '#1A3C5E', fontSize: 16, fontWeight: 800, margin: 0 }}>
-                        🛒 Abandoned Cart
+                         Abandoned Cart
                     </h3>
                     <div style={{ fontSize: 12, color: '#7F8C8D', marginTop: 4 }}>
                         {cart.email || 'Anonymous'}
@@ -118,7 +118,7 @@ const CartDetail = ({ cart, onClose, isMobile }) => {
                     textAlign: 'center',
                 }}>
                     <div style={{ fontSize: 20, fontWeight: 800, color: cart.status === 'recovered' ? '#1E8449' : '#E67E22' }}>
-                        {cart.status === 'recovered' ? '✅' : '⏳'}
+                        {cart.status === 'recovered' ? '✅' : 'Loading...'}
                     </div>
                     <div style={{ fontSize: 11, color: '#7F8C8D' }}>
                         {cart.status === 'recovered' ? 'Recovered' : 'Pending'}
@@ -143,7 +143,7 @@ const CartDetail = ({ cart, onClose, isMobile }) => {
                     onMouseEnter={e => e.currentTarget.style.opacity = 0.85}
                     onMouseLeave={e => e.currentTarget.style.opacity = 1}
                 >
-                    🔗 Open Recovery URL
+                     Open Recovery URL
                 </a>
             )}
         </div>
@@ -239,7 +239,7 @@ const CartCard = ({ cart, onClick }) => (
 
         {/* Row 4: Emails sent */}
         <div style={{ marginTop: 8, fontSize: 11, color: '#7F8C8D' }}>
-            📧 {cart.recoveryEmailsSent || 0} recovery email(s) sent
+             {cart.recoveryEmailsSent || 0} recovery email(s) sent
         </div>
     </div>
 );
@@ -445,7 +445,7 @@ export default function AbandonedCarts() {
                                                                             background: '#EBF5FB', padding: '4px 10px',
                                                                             borderRadius: 6, whiteSpace: 'nowrap',
                                                                         }}>
-                                                                        🔗 Recover
+                                                                         Recover
                                                                     </a>
                                                                 ) : (
                                                                     <span style={{ fontSize: 12, color: '#BDC3C7' }}>—</span>
@@ -535,7 +535,7 @@ export default function AbandonedCarts() {
                             background: '#fff', color: '#1A3C5E',
                             fontSize: 13, fontWeight: 600,
                         }}>
-                        Next →
+                        Next 
                     </button>
                 </div>
             )}

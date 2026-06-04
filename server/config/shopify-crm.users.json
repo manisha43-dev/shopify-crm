@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6a0e8c2aa1d4e918a2aedec5"
+  },
+  "name": "Manisha",
+  "email": "manishakumar5413@gmail.com",
+  "password": "$2b$12$hhzLX0fx/WaP961wLKgDoOOx4.2O2yA1FfIG56.2VcNTJoF/8i2ey",
+  "role": "agent",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-05-21T04:38:02.099Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T04:38:02.099Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e8ca8a1d4e918a2aedec7"
+  },
+  "name": "Kavya",
+  "email": "kavya@gmail.com",
+  "password": "$2b$12$s3KJLmjJFzTaUajXZQAdQuZagKm0fWmLXmj3HkZ9PUHxdyhwQ1P4C",
+  "role": "manager",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-05-21T04:40:08.313Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T04:40:08.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e8f66fe742f28cb94c860"
+  },
+  "name": "Sha",
+  "email": "sha@gmail.com",
+  "password": "$2b$12$7cSDRotte/UoXNJNsPW8Cu9al0xc0S5Nc2lo7U3gs/P5f7ImZiXDS",
+  "role": "agent",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-05-21T04:51:50.110Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T04:51:50.110Z"
+  },
+  "__v": 0
+}]
