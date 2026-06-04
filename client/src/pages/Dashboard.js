@@ -15,7 +15,7 @@ const useWidth = () => {
   return w;
 };
 
-const StatCard = ({ label, value, color, icon, sub }) => (
+const StatCard = ({ label, value, color, sub }) => (
   <div style={{
     background: '#fff',
     borderRadius: 12,
@@ -30,7 +30,6 @@ const StatCard = ({ label, value, color, icon, sub }) => (
       <span style={{ fontSize: 11, color: '#7F8C8D', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5 }}>
         {label}
       </span>
-      <span style={{ fontSize: 20 }}>{icon}</span>
     </div>
     <div style={{ fontSize: 26, fontWeight: 800, color: '#1A3C5E', lineHeight: 1 }}>
       {value}
@@ -78,14 +77,14 @@ export default function Dashboard() {
   };
 
   const cards = [
-    { label: 'Total Contacts',  value: stats.totalContacts || 0,         color: '#2E86C1', icon: '👥' },
-    { label: 'Revenue',         value: fmt(stats.totalRevenue),           color: '#1E8449', icon: '💰', sub: 'From paid orders' },
-    { label: 'Orders',          value: stats.totalOrders || 0,            color: '#8E44AD', icon: '📦' },
-    { label: 'Abandoned Carts', value: stats.abandonedCartsOpen || 0,     color: '#E67E22', icon: '🛒', sub: 'Open / unrecovered' },
-    { label: 'VIP Customers',   value: stats.vipContacts || 0,            color: '#F39C12', icon: '⭐', sub: 'LTV > ₹50,000' },
-    { label: 'At-Risk',         value: stats.atRiskContacts || 0,         color: '#C0392B', icon: '⚠️', sub: 'Need attention' },
-    { label: 'New This Month',  value: stats.newContactsThisMonth || 0,   color: '#16A085', icon: '✨' },
-    { label: 'New This Month',  value: stats.newContactsThisMonth || 0,   color: '#16A085', icon: '✨' },
+    { label: 'Total Contacts',  value: stats.totalContacts || 0,         color: '#2E86C1' },
+    { label: 'Revenue',         value: fmt(stats.totalRevenue),           color: '#1E8449',  sub: 'From paid orders' },
+    { label: 'Orders',          value: stats.totalOrders || 0,            color: '#8E44AD' },
+    { label: 'Abandoned Carts', value: stats.abandonedCartsOpen || 0,     color: '#E67E22', sub: 'Open / unrecovered' },
+    { label: 'VIP Customers',   value: stats.vipContacts || 0,            color: '#F39C12', sub: 'LTV > ₹50,000' },
+    { label: 'At-Risk',         value: stats.atRiskContacts || 0,         color: '#C0392B', sub: 'Need attention' },
+    { label: 'New This Month',  value: stats.newContactsThisMonth || 0,   color: '#16A085' },
+    { label: 'New This Month',  value: stats.newContactsThisMonth || 0,   color: '#16A085' },
   ];
 
   // Remove duplicate last card
@@ -173,7 +172,6 @@ export default function Dashboard() {
           overflowX: 'auto',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
-            <span style={{ fontSize: 18 }}>📋</span>
             <h3 style={{ fontSize: 14, fontWeight: 700, color: '#1A3C5E', margin: 0 }}>
               Recent Orders
             </h3>
