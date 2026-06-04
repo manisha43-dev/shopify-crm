@@ -98,7 +98,7 @@ const Sidebar = ({ open, onClose }) => {
 
 const Login = () => {
   const { login } = useAuth();
-  const [email, setEmail]       = useState('admin@hellogrowthcrm.com');
+  const [email, setEmail]       = useState("");
   const [password, setPassword] = useState('');
   const [error, setError]       = useState('');
   const [loading, setLoading]   = useState(false);
