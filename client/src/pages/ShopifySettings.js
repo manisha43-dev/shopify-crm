@@ -329,7 +329,6 @@ const handleConnect = () => {
                   }}>
                     <div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-                        <span style={{ fontSize: 20 }}>🏪</span>
                         <h3 style={{ fontSize: isMobile ? 14 : 16, fontWeight: 800, color: '#1A3C5E', margin: 0 }}>
                           {store.shopDomain}
                         </h3>
