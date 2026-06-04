@@ -10,13 +10,13 @@ import Campaigns from './pages/Campaigns';
 import ShopifySettings from './pages/ShopifySettings';
 
 const navItems = [
-  { path: '/',                      label: 'Dashboard',           icon: '\uD83D\uDCCA' },
-  { path: '/contacts',              label: 'Contacts',            icon: '\uD83D\uDC65' },
-  { path: '/orders',                label: 'Orders',              icon: '\uD83D\uDCE6' },
-  { path: '/pipeline',              label: 'Pipeline',            icon: '\uD83C\uDFC6' },
-  { path: '/carts',                 label: 'Abandoned Carts',     icon: '\uD83D\uDED2' },
-  { path: '/campaigns',             label: 'Campaigns',           icon: '\uD83D\uDCE3' },
-  { path: '/settings/integrations', label: 'Shopify Integration', icon: '\uD83D\uDD17' },
+  { path: '/',                      label: 'Dashboard' },
+  { path: '/contacts',              label: 'Contacts' },
+  { path: '/orders',                label: 'Orders' },
+  { path: '/pipeline',              label: 'Pipeline' },
+  { path: '/carts',                 label: 'Abandoned Carts'},
+  { path: '/campaigns',             label: 'Campaigns'},
+  { path: '/settings/integrations', label: 'Shopify Integration' },
 ];
 
 const Sidebar = ({ open, onClose }) => {
@@ -71,7 +71,6 @@ const Sidebar = ({ open, onClose }) => {
                 borderLeft: isActive ? '3px solid #2E86C1' : '3px solid transparent',
                 transition: 'all 0.15s',
               })}>
-              <span>{item.icon}</span>
               <span>{item.label}</span>
             </NavLink>
           ))}
