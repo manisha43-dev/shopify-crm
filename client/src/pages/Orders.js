@@ -265,12 +265,10 @@ export default function Orders() {
                 }}>
                     {loading ? (
                         <div style={{ padding: 60, textAlign: 'center', color: '#7F8C8D' }}>
-                            <div style={{ fontSize: 32, marginBottom: 8 }}>⏳</div>
                             Loading orders...
                         </div>
                     ) : orders.length === 0 ? (
                         <div style={{ padding: 60, textAlign: 'center', color: '#BDC3C7' }}>
-                            <div style={{ fontSize: 40, marginBottom: 8 }}>📦</div>
                             <div style={{ fontSize: 14 }}>No orders found</div>
                         </div>
                     ) : isMobile ? (

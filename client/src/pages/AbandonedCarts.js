@@ -345,7 +345,6 @@ export default function AbandonedCarts() {
                 <div style={{ flex: 1, minWidth: 0 }}>
                     {loading ? (
                         <div style={{ textAlign: 'center', padding: 60, color: '#7F8C8D' }}>
-                            <div style={{ fontSize: 32, marginBottom: 8 }}>⏳</div>
                             Loading carts...
                         </div>
                     ) : carts.length === 0 ? (

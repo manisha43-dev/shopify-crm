@@ -62,7 +62,6 @@ export default function Dashboard() {
       alignItems: 'center', height: '60vh',
       flexDirection: 'column', gap: 12,
     }}>
-      <div style={{ fontSize: 32 }}>⏳</div>
       <div style={{ fontSize: 15, color: '#7F8C8D' }}>Loading dashboard...</div>
     </div>
   );

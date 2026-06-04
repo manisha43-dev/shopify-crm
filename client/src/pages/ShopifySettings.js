@@ -113,7 +113,7 @@ const WebhookCard = ({ event, isMobile }) => {
         </div>
         {event.attempts > 1 && (
           <div style={{ fontSize: 10, color: '#E67E22', marginTop: 4 }}>
-            ⚠️ {event.attempts} attempt(s)
+             {event.attempts} attempt(s)
           </div>
         )}
       </div>
@@ -234,7 +234,6 @@ const handleConnect = () => {
         border: '1px solid #EBF5FB',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
-          <span style={{ fontSize: 24 }}>🔗</span>
           <h3 style={{ color: '#1A3C5E', fontSize: 15, fontWeight: 800, margin: 0 }}>
             Connect a Shopify Store
           </h3>
@@ -270,7 +269,7 @@ const handleConnect = () => {
               whiteSpace: 'nowrap',
               transition: 'background 0.15s',
             }}>
-            {connecting ? '⏳ Connecting...' : '🔗 Connect Store'}
+            {connecting ? ' Connecting...' : ' Connect Store'}
           </button>
         </div>
 
@@ -341,7 +340,7 @@ const handleConnect = () => {
                           padding: '3px 10px', borderRadius: 20,
                           fontSize: 11, fontWeight: 700,
                         }}>
-                          {isConnected ? '● Connected' : '● Disconnected'}
+                          {isConnected ? ' Connected' : ' Disconnected'}
                         </span>
                       </div>
                       <div style={{ fontSize: 12, color: '#7F8C8D', marginTop: 6 }}>
