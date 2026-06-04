@@ -14,12 +14,12 @@ const useWidth = () => {
 };
 
 const STAGES = [
-    { key: 'new', label: 'New', color: '#2E86C1', bg: '#EBF5FB', icon: '🆕' },
-    { key: 'contacted', label: 'Contacted', color: '#8E44AD', bg: '#F5EEF8', icon: '📞' },
-    { key: 'qualified', label: 'Qualified', color: '#E67E22', bg: '#FDEBD0', icon: '✅' },
-    { key: 'proposal', label: 'Proposal', color: '#16A085', bg: '#E8F8F5', icon: '📄' },
-    { key: 'won', label: 'Won', color: '#1E8449', bg: '#D5F5E3', icon: '🏆' },
-    { key: 'lost', label: 'Lost', color: '#C0392B', bg: '#FDEDEC', icon: '❌' },
+    { key: 'new', label: 'New', color: '#2E86C1', bg: '#EBF5FB' },
+    { key: 'contacted', label: 'Contacted', color: '#8E44AD', bg: '#F5EEF8'},
+    { key: 'qualified', label: 'Qualified', color: '#E67E22', bg: '#FDEBD0' },
+    { key: 'proposal', label: 'Proposal', color: '#16A085', bg: '#E8F8F5' },
+    { key: 'won', label: 'Won', color: '#1E8449', bg: '#D5F5E3'},
+    { key: 'lost', label: 'Lost', color: '#C0392B', bg: '#FDEDEC' },
 ];
 
 //  Deal Card 
@@ -85,7 +85,7 @@ const DealCard = ({ deal, onMove, compact }) => {
                                     border: `1px solid ${s.color}`,
                                     transition: 'opacity 0.15s',
                                 }}>
-                                {s.icon} {s.label}
+                                 {s.label}
                             </button>
                         ))}
                     </div>
@@ -119,7 +119,7 @@ const MobileListView = ({ grouped, totals, onMove, activeStage, setActiveStage }
                             border: `2px solid ${s.color}`,
                             transition: 'all 0.15s',
                         }}>
-                        {s.icon} {s.label} ({count})
+                       {s.label} ({count})
                     </button>
                 );
             })}
@@ -138,7 +138,7 @@ const MobileListView = ({ grouped, totals, onMove, activeStage, setActiveStage }
                     }}>
                         <div>
                             <div style={{ fontSize: 15, fontWeight: 800, color: stage.color }}>
-                                {stage.icon} {stage.label}
+                                 {stage.label}
                             </div>
                             <div style={{ fontSize: 12, color: '#7F8C8D', marginTop: 2 }}>
                                 {deals.length} deals · ₹{(totals[stage.key] || 0).toLocaleString()}
@@ -224,10 +224,10 @@ export default function Pipeline() {
                 marginBottom: 20,
             }}>
                 {[
-                    { label: 'Total Deals', value: totalDeals, color: '#2E86C1', icon: '📋' },
-                    { label: 'Won Value', value: `₹${totalWon.toLocaleString()}`, color: '#1E8449', icon: '🏆' },
-                    { label: 'Pipeline Value', value: `₹${totalPipeline.toLocaleString()}`, color: '#8E44AD', icon: '💰' },
-                    { label: 'Lost Deals', value: (grouped.lost || []).length, color: '#C0392B', icon: '❌' },
+                    { label: 'Total Deals', value: totalDeals, color: '#2E86C1'},
+                    { label: 'Won Value', value: `₹${totalWon.toLocaleString()}`, color: '#1E8449' },
+                    { label: 'Pipeline Value', value: `₹${totalPipeline.toLocaleString()}`, color: '#8E44AD' },
+                    { label: 'Lost Deals', value: (grouped.lost || []).length, color: '#C0392B' },
                 ].map(c => (
                     <div key={c.label} style={{
                         background: '#fff', borderRadius: 10,
@@ -239,7 +239,6 @@ export default function Pipeline() {
                             <div style={{ fontSize: 11, color: '#7F8C8D', fontWeight: 600, textTransform: 'uppercase' }}>
                                 {c.label}
                             </div>
-                            <span style={{ fontSize: 18 }}>{c.icon}</span>
                         </div>
                         <div style={{ fontSize: isMobile ? 18 : 22, fontWeight: 800, color: '#1A3C5E', marginTop: 6 }}>
                             {c.value}
@@ -278,7 +277,7 @@ export default function Pipeline() {
                                 }}>
                                     <div>
                                         <div style={{ fontSize: 13, fontWeight: 700, color: stage.color }}>
-                                            {stage.icon} {stage.label}
+                                           {stage.label}
                                         </div>
                                         <div style={{ fontSize: 11, color: '#7F8C8D', marginTop: 2 }}>
                                             {deals.length} · ₹{(totals[stage.key] || 0).toLocaleString()}
@@ -324,7 +323,7 @@ export default function Pipeline() {
                                         borderTop: `3px solid ${stage.color}`,
                                     }}>
                                         <div style={{ fontSize: 13, fontWeight: 700, color: stage.color }}>
-                                            {stage.icon} {stage.label}
+                                           {stage.label}
                                         </div>
                                         <div style={{ fontSize: 11, color: '#7F8C8D', marginTop: 3 }}>
                                             {deals.length} deals · ₹{(totals[stage.key] || 0).toLocaleString()}

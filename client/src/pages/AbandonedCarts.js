@@ -13,10 +13,10 @@ const useWidth = () => {
 };
 
 const statusConfig = {
-    open: { color: '#E67E22', bg: '#FDEBD0', icon: '🛒', label: 'Open' },
-    email_sent: { color: '#2E86C1', bg: '#EBF5FB', icon: '📧', label: 'Email Sent' },
-    recovered: { color: '#1E8449', bg: '#D5F5E3', icon: '✅', label: 'Recovered' },
-    expired: { color: '#7F8C8D', bg: '#F2F3F4', icon: '⏰', label: 'Expired' },
+    open: { color: '#E67E22', bg: '#FDEBD0', label: 'Open' },
+    email_sent: { color: '#2E86C1', bg: '#EBF5FB', label: 'Email Sent' },
+    recovered: { color: '#1E8449', bg: '#D5F5E3', label: 'Recovered' },
+    expired: { color: '#7F8C8D', bg: '#F2F3F4', label: 'Expired' },
 };
 
 const StatusBadge = ({ status }) => {
@@ -28,7 +28,7 @@ const StatusBadge = ({ status }) => {
             fontSize: 11, fontWeight: 700,
             whiteSpace: 'nowrap',
         }}>
-            {cfg.icon} {cfg.label}
+            {cfg.label}
         </span>
     );
 };
@@ -293,10 +293,10 @@ export default function AbandonedCarts() {
                 marginBottom: 18,
             }}>
                 {[
-                    { label: 'Total Carts', value: total, color: '#E67E22', icon: '🛒' },
-                    { label: 'Cart Value', value: `₹${totalValue.toLocaleString()}`, color: '#2E86C1', icon: '💰' },
-                    { label: 'Avg Value', value: `₹${Math.round(avgValue).toLocaleString()}`, color: '#8E44AD', icon: '📊' },
-                    { label: 'Recovery Rate', value: statusFilter === 'recovered' ? `${total}` : '—', color: '#1E8449', icon: '✅' },
+                    { label: 'Total Carts', value: total, color: '#E67E22' },
+                    { label: 'Cart Value', value: `₹${totalValue.toLocaleString()}`, color: '#2E86C1' },
+                    { label: 'Avg Value', value: `₹${Math.round(avgValue).toLocaleString()}`, color: '#8E44AD' },
+                    { label: 'Recovery Rate', value: statusFilter === 'recovered' ? `${total}` : '—', color: '#1E8449' },
                 ].map(c => (
                     <div key={c.label} style={{
                         background: '#fff', borderRadius: 10,
@@ -308,7 +308,6 @@ export default function AbandonedCarts() {
                             <div style={{ fontSize: 11, color: '#7F8C8D', fontWeight: 600, textTransform: 'uppercase' }}>
                                 {c.label}
                             </div>
-                            <span style={{ fontSize: 18 }}>{c.icon}</span>
                         </div>
                         <div style={{ fontSize: isMobile ? 18 : 22, fontWeight: 800, color: '#1A3C5E', marginTop: 6 }}>
                             {c.value}
@@ -336,7 +335,7 @@ export default function AbandonedCarts() {
                             transition: 'all 0.15s',
                             flex: isMobile ? '1 1 calc(50% - 4px)' : 'unset',
                         }}>
-                        {cfg.icon} {cfg.label}
+                       {cfg.label}
                     </button>
                 ))}
             </div>

@@ -14,10 +14,10 @@ const useWidth = () => {
 
 // Status dot 
 const statusCfg = {
-  done: { color: '#1E8449', bg: '#D5F5E3', icon: '✅', label: 'Synced' },
-  running: { color: '#F39C12', bg: '#FDEBD0', icon: '⏳', label: 'Syncing...' },
-  error: { color: '#C0392B', bg: '#FDEDEC', icon: '❌', label: 'Error' },
-  idle: { color: '#7F8C8D', bg: '#F2F3F4', icon: '⚪', label: 'Idle' },
+  done: { color: '#1E8449', bg: '#D5F5E3', label: 'Synced' },
+  running: { color: '#F39C12', bg: '#FDEBD0', label: 'Syncing...' },
+  error: { color: '#C0392B', bg: '#FDEDEC', label: 'Error' },
+  idle: { color: '#7F8C8D', bg: '#F2F3F4', label: 'Idle' },
 };
 
 const StatusDot = ({ status }) => {
@@ -37,14 +37,6 @@ const StatusDot = ({ status }) => {
   );
 };
 
-//  Entity sync card 
-const entityIcons = {
-  customers: '👥',
-  orders: '📦',
-  products: '🏷️',
-  carts: '🛒',
-};
-
 const SyncCard = ({ entity, status, onResync, isMobile }) => {
   const cfg = statusCfg[status] || statusCfg.idle;
   return (
@@ -56,7 +48,6 @@ const SyncCard = ({ entity, status, onResync, isMobile }) => {
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <span style={{ fontSize: 18 }}>{entityIcons[entity]}</span>
           <span style={{ fontSize: 12, fontWeight: 700, color: '#1A3C5E', textTransform: 'capitalize' }}>
             {entity}
           </span>
@@ -75,7 +66,7 @@ const SyncCard = ({ entity, status, onResync, isMobile }) => {
         onMouseEnter={e => e.currentTarget.style.background = '#EBF5FB'}
         onMouseLeave={e => e.currentTarget.style.background = '#fff'}
       >
-        🔄 Force Re-sync
+        Force Re-sync
       </button>
     </div>
   );
@@ -203,7 +194,7 @@ const handleConnect = () => {
     loadStores();
   };
 
-  const Tab = ({ id, label, icon }) => (
+  const Tab = ({ id, label }) => (
     <button
       onClick={() => setActiveTab(id)}
       style={{
@@ -217,7 +208,7 @@ const handleConnect = () => {
         flex: isMobile ? 1 : 'unset',
         display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
       }}>
-      {icon} {label}
+      {label}
     </button>
   );
 
@@ -295,8 +286,8 @@ const handleConnect = () => {
         background: '#fff', padding: 6,
         borderRadius: 10, boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
       }}>
-        <Tab id="stores" label="Connected Stores" icon="🏪" />
-        <Tab id="webhooks" label="Webhook Event Log" icon="📡" />
+        <Tab id="stores" label="Connected Stores" />
+        <Tab id="webhooks" label="Webhook Event Log"  />
       </div>
 
       {/*  Connected Stores Tab  */}
@@ -305,7 +296,6 @@ const handleConnect = () => {
 
           {loading ? (
             <div style={{ textAlign: 'center', padding: 40, color: '#7F8C8D' }}>
-              <div style={{ fontSize: 28, marginBottom: 8 }}>⏳</div>
               Loading stores...
             </div>
           ) : stores.length === 0 ? (

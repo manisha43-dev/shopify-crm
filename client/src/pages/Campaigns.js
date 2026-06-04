@@ -22,25 +22,25 @@ const CAMPAIGNS = [
 ];
 
 const statusCfg = {
-  active: { color: '#1E8449', bg: '#D5F5E3', icon: '🟢' },
-  draft:  { color: '#7F8C8D', bg: '#F2F3F4', icon: '⚪' },
-  paused: { color: '#D35400', bg: '#FDEBD0', icon: '🟠' },
-  sent:   { color: '#2E86C1', bg: '#EBF5FB', icon: '🔵' },
+  active: { color: '#1E8449', bg: '#D5F5E3' },
+  draft:  { color: '#7F8C8D', bg: '#F2F3F4' },
+  paused: { color: '#D35400', bg: '#FDEBD0'},
+  sent:   { color: '#2E86C1', bg: '#EBF5FB' },
 };
 
 const typeCfg = {
-  Automated: { color: '#8E44AD', bg: '#F5EEF8', icon: '⚡' },
-  Manual:    { color: '#E67E22', bg: '#FDEBD0', icon: '✋' },
+  Automated: { color: '#8E44AD', bg: '#F5EEF8' },
+  Manual:    { color: '#E67E22', bg: '#FDEBD0'},
 };
 
-const Badge = ({ label, color, bg, icon }) => (
+const Badge = ({ label, color, bg }) => (
   <span style={{
     background: bg, color,
     padding: '3px 10px', borderRadius: 20,
     fontSize: 11, fontWeight: 700,
     whiteSpace: 'nowrap',
   }}>
-    {icon} {label}
+  {label}
   </span>
 );
 
@@ -92,17 +92,17 @@ const CampaignDetail = ({ campaign, onClose, isMobile }) => {
         gap: 10, marginBottom: 16,
       }}>
         {[
-          { label: 'Sent',       value: campaign.sent.toLocaleString(),    color: '#2E86C1', icon: '📤' },
-          { label: 'Opened',     value: `${campaign.opened.toLocaleString()} (${openRate})`,  color: '#8E44AD', icon: '📬' },
-          { label: 'Clicked',    value: `${campaign.clicked.toLocaleString()} (${clickRate})`, color: '#E67E22', icon: '👆' },
-          { label: 'Revenue',    value: campaign.revenue > 0 ? `₹${campaign.revenue.toLocaleString()}` : '—', color: '#1E8449', icon: '💰' },
+          { label: 'Sent',       value: campaign.sent.toLocaleString(),    color: '#2E86C1' },
+          { label: 'Opened',     value: `${campaign.opened.toLocaleString()} (${openRate})`,  color: '#8E44AD' },
+          { label: 'Clicked',    value: `${campaign.clicked.toLocaleString()} (${clickRate})`, color: '#E67E22' },
+          { label: 'Revenue',    value: campaign.revenue > 0 ? `₹${campaign.revenue.toLocaleString()}` : '—', color: '#1E8449' },
         ].map(s => (
           <div key={s.label} style={{
             background: '#F8FBFF', borderRadius: 8,
             padding: '10px 12px', border: '1px solid #EBF5FB',
           }}>
             <div style={{ fontSize: 10, color: '#7F8C8D', fontWeight: 600, marginBottom: 4 }}>
-              {s.icon} {s.label}
+              {s.label}
             </div>
             <div style={{ fontSize: 14, fontWeight: 800, color: s.color }}>
               {s.value}
@@ -453,10 +453,10 @@ export default function Campaigns() {
         marginBottom: 18,
       }}>
         {[
-          { label: 'Active',      value: activeCampaigns,                      color: '#1E8449', icon: '🟢' },
-          { label: 'Total Sent',  value: totalSent.toLocaleString(),           color: '#2E86C1', icon: '📤' },
-          { label: 'Avg Open',    value: `${avgOpenRate.toFixed(1)}%`,         color: '#8E44AD', icon: '📬' },
-          { label: 'Revenue',     value: `₹${totalRevenue.toLocaleString()}`,  color: '#E67E22', icon: '💰' },
+          { label: 'Active',      value: activeCampaigns,                      color: '#1E8449'},
+          { label: 'Total Sent',  value: totalSent.toLocaleString(),           color: '#2E86C1'},
+          { label: 'Avg Open',    value: `${avgOpenRate.toFixed(1)}%`,         color: '#8E44AD' },
+          { label: 'Revenue',     value: `₹${totalRevenue.toLocaleString()}`,  color: '#E67E22' },
         ].map(c => (
           <div key={c.label} style={{
             background: '#fff', borderRadius: 10,
@@ -468,7 +468,6 @@ export default function Campaigns() {
               <div style={{ fontSize: 11, color: '#7F8C8D', fontWeight: 600, textTransform: 'uppercase' }}>
                 {c.label}
               </div>
-              <span style={{ fontSize: 18 }}>{c.icon}</span>
             </div>
             <div style={{ fontSize: isMobile ? 18 : 22, fontWeight: 800, color: '#1A3C5E', marginTop: 6 }}>
               {c.value}
